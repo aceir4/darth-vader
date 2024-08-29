@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    margin: 0; 
+}
+
+
+
+.imagem{
+    width: 100%;
+}
+
+.navbar{
+    background-color: lightslategray;    
+    padding: 10px; /* aumenta o tamanho interno da caixa */
+}
+
+.navbar ul {
+    display: flex; /* deixa a caixa do texto um do lado do outro */ 
+    margin: 0;
+    padding: 10px;
+}
+
+.link {
+    margin-right: 50px; 
+    list-style: none; /* tira as bolinha da lista */ 
+    text-transform: uppercase; /*deixa a letra maiuscula */
+    
+}
+
+a{
+    text-decoration: none; /* tira os estilos do link */ 
+    cursor:pointer; /* cria a maozinha */ 
+    font-weight: bold;
+    color:white;
+}
+
+h1, p, footer{
+    color:white;
+    
+}
+
+.sobre{
+    margin: 20px; 
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+footer {
+    text-align: center;
+}
